@@ -1,10 +1,7 @@
 
 # Update Java To Fix Burp Suite CE  
 
-Burp Suite is already installed on the Parrot Security MiniTower however 
-it will not run correctly and will give a Java version error.  To fix this 
-we will update the MiniTower to Java 21.  The only way we can get Java 21 on 
-arm64 is to use the Java 21 arm64 binaries from BellSoft.
+Burp Suite requires a more recent java version then is available through `apt` on the Raspberry Pi 5.  Instead use Java 21 arm64 binaries from BellSoft.  
 
 1. First make sure we are up to date: 
 `sudo apt update` 
